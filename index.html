@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,17 +9,16 @@
 <body>
   <div class="container">
 
-    <!-- GREETING SECTION -->
-    <section class="greeting">
-      <div class="greetingTextContainer">
-        <h1 class="greetingText">Hello</h1>
-      </div>
-      <div class="greetingImgContainer">
+    <!-- GREETING PARALLAX SECTION -->
+    <section class="greetingParallax">
+      <div class="parallaxLayer background">
         <img
           src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
           alt="Globe"
-          class="greetingImg"
         />
+      </div>
+      <div class="parallaxLayer foreground">
+        <h1>Hello</h1>
       </div>
     </section>
 
@@ -27,16 +27,15 @@
       <h1 class="name">Emmanuel</h1>
     </section>
 
-    <!-- TAGLINE SECTIONS -->
+    <!-- TAGLINES -->
     <section class="taglineContainer dark">
       <h2 class="tagline">Explorer</h2>
     </section>
-
     <section class="taglineContainer blue">
       <h2 class="tagline">Storyteller</h2>
     </section>
 
-    <!-- DESTINATIONS SECTION -->
+    <!-- DESTINATIONS -->
     <section class="destinations">
       <h2 class="destinationsTitle">Favorite Destinations</h2>
 
@@ -52,8 +51,7 @@
         <div class="destinationDetail">
           <h3 class="destinationTitle">Santorini, Greece</h3>
           <p class="destinationDesc">
-            The iconic white buildings with blue domes overlooking the sparkling Aegean Sea.
-            A perfect blend of adventure and romance.
+            The iconic white buildings with blue domes overlooking the sparkling Aegean Sea. A perfect blend of adventure and romance.
           </p>
           <button class="destinationButton">See More</button>
         </div>
@@ -76,6 +74,7 @@
           <button class="destinationButton">See More</button>
         </div>
       </div>
+
     </section>
   </div>
 
